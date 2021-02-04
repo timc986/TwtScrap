@@ -1,7 +1,6 @@
 # TwtScrap
 
-A console app that scrapes tweets from Twitter
-Specifically built to scrape London Underground/Tube Status for data analysis practice
+A console app that scrapes tweets from Twitter. Specifically built to scrape London Underground/Tube Status for data analysis practice
 
 ## Features
 
