@@ -78,7 +78,7 @@ namespace TwitterAutoScraper
         private static void ManualScrap()
         {
             var web = new HtmlWeb();
-            var document = web.Load(Path.GetFullPath("test2.html")); //twitter advance seach html
+            var document = web.Load(Path.GetFullPath("test1.html")); //twitter advance seach html
             var page = document.DocumentNode;
 
             List<Tweet> tweets = new List<Tweet>();
@@ -97,7 +97,10 @@ namespace TwitterAutoScraper
                         .Replace("\n", string.Empty)
                         .Replace(",", string.Empty)
                         .Replace(";", string.Empty)
+                        .Replace("\r", string.Empty)
                         .Remove(0, 2);
+
+                    message += "\r";
 
                     tweets.Add(new Tweet
                     {
