@@ -12,9 +12,9 @@ Specifically built to scrape London Underground/Tube Status for data analysis pr
 
 ## Screenshots
 
-![screenshot_project](screenshot_project.png)
+![screenshot_project](screenshot_project.PNG)
 
-![screenshot_csv](screenshot_csv.png)
+![screenshot_csv](screenshot_csv.PNG)
 
 ## Tech
 
